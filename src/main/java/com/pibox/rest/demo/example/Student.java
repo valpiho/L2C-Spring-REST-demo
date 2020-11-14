@@ -1,5 +1,8 @@
-package com.pibox.rest.demo;
+package com.pibox.rest.demo.example;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
 
 	private int id;

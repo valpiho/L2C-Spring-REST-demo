@@ -1,4 +1,4 @@
-package com.pibox.rest.demo;
+package com.pibox.rest.demo.example;
 
 import java.io.File;
 

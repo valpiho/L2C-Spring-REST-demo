@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.luv2code</groupId>
-	<artifactId>jackson-databind-json-demo-01-processing-json</artifactId>
+	<groupId>com.pibox</groupId>
+	<artifactId>spring-rest-demo</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>jackson-demo</name>
+	<name>spring-rest-demo</name>
 
 
 	<properties>
@@ -16,15 +16,26 @@
 	</properties>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>5.2.11.RELEASE</version>
+		</dependency>
 
-		<!-- TODO: Add your dependency here -->
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+		</dependency>
 
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.9.5</version>
-		</dependency>	
-			
+		</dependency>
+
 	</dependencies>
 
 </project>
